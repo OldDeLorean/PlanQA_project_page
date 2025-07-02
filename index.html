@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlanQA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PlanQA</h1>
+    <p class="authors">
+      <strong>Fedor Rodionov<sup>1</sup></strong> &bull;
+      <strong>Abdelrahman Eldesokey<sup>1</sup></strong> &bull;
+      <strong>Michael Birsak<sup>1</sup></strong> &bull;
+      <strong>John Femiani<sup>2</sup></strong> &bull;
+      <strong>Bernard Ghanem<sup>1</sup></strong> &bull;
+      <strong>Peter Wonka<sup>1</sup></strong>
+    </p>
+    <p class="affiliations">
+      <span><sup>1</sup>KAUST</span>
+      <span><sup>2</sup>Miami University</span>
+    </p>
+    <p>
+      <a href="#">Paper</a> &middot;
+      <a href="#">Data</a> &middot;
+      <a href="#">Code</a> &middot;
+      <a href="#">Video</a>
+    </p>
+  </header>
+
+  <section id="abstract">
+    <h2>Abstract</h2>
+    <p>
+      We introduce PlanQA, a diagnostic benchmark for evaluating geometric and spatial reasoning in large-language models (LLMs). PlanQA is grounded in structured representations of indoor scenes, such as kitchens, living rooms, and bedrooms, encoded in a symbolic format (e.g., JSON, XML layouts). The benchmark includes diverse question types that test not only metric and topological reasoning (e.g., distance, visibility, shortest paths) but also interior design constraints such as affordance, clearance, balance, and usability. Our results across a variety of frontier open-source and commercial LLMs show that while models may succeed in shallow queries, they often fail to simulate physical constraints, preserve spatial coherence, or generalize under layout perturbation. PlanQA uncovers a clear blind spot in today’s LLMs: they don’t consistently reason about real-world layouts. We hope that this benchmark inspires new work on language models that can accurately infer and manipulate spatial and geometric properties in practical settings.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Example Layouts</h2>
+    <div class="gallery">
+      <img src="images/img1.jpg" alt="Kitchen Example 1">
+      <img src="images/img2.jpg" alt="Kitchen Example 2">
+      <img src="images/img3.jpg" alt="Kitchen Example 3">
+      <img src="images/img4.jpg" alt="Living Room Example 1">
+      <img src="images/img5.jpg" alt="Living Room Example 2">
+      <img src="images/img6.jpg" alt="Living Room Example 3">
+      <img src="images/img7.jpg" alt="Bedroom Example 1">
+      <img src="images/img8.jpg" alt="Bedroom Example 2">
+      <img src="images/img9.jpg" alt="Bedroom Example 3">
+    </div>
+  </section>
+</body>
+</html>
