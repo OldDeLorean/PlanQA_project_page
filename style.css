@@ -9,8 +9,9 @@ body {
 header {
   text-align: center;
   padding: 40px 20px;
-  background: #222;
-  color: white;
+  background: #fff;
+  color: #333;
+  border-bottom: 1px solid #ddd;
 }
 header h1 {
   margin-bottom: 10px;
@@ -20,6 +21,24 @@ header h1 {
 }
 .affiliations {
   margin: 0 auto 20px;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links .button {
+  display: inline-block;
+  background: #eee;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.links .button:hover {
+  background: #ddd;
 }
 section {
   padding: 20px;
@@ -38,4 +57,10 @@ section {
   width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
 }
