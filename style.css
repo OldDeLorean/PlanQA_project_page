@@ -64,3 +64,40 @@ footer {
   padding: 20px 0;
   font-size: 0.9em;
 }
+
+.review-note {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table.benchmark {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+
+table.benchmark th,
+table.benchmark td {
+  border: 1px solid #ccc;
+  padding: 4px;
+  text-align: center;
+}
+
+table.benchmark th {
+  background: #f0f0f0;
+}
+
+.logo {
+  width: 20px;
+  height: auto;
+}
+
+.table-note {
+  font-size: 0.8em;
+  margin-top: 4px;
+}
