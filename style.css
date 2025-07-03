@@ -88,6 +88,21 @@ table.benchmark td {
   text-align: center;
 }
 
+table.benchmark .group-end td {
+  border-bottom: 2px solid #666;
+}
+
+table.benchmark th:nth-child(1),
+table.benchmark td:nth-child(1),
+table.benchmark th:nth-child(2),
+table.benchmark td:nth-child(2),
+table.benchmark th:nth-child(4),
+table.benchmark td:nth-child(4),
+table.benchmark th:nth-child(9),
+table.benchmark td:nth-child(9) {
+  border-right: 2px solid #666;
+}
+
 table.benchmark th {
   background: #f0f0f0;
 }
